@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Todo Management Test Suite">
+    <test name="Todo Tests">
+        <classes>
+            <class name="tests.CreateTodoTest"/>
+            <class name="tests.ViewTodoTest"/>
+            <class name="tests.EditTodoTest"/>
+            <class name="tests.CompleteTodoTest"/>
+            <class name="tests.DeleteTodoTest"/>
+        </classes>
+    </test>
+</suite>
